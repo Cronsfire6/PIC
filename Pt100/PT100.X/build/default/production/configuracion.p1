@@ -1,95 +1,4 @@
 Version 3.2 HI-TECH Software Intermediate Code
-[p mainexit ]
-"6709 ../../../../../../../Program Files/Microchip/xc8/v2.32/pic/include/proc\pic18f4431.h
-[s S286 :2 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
-[n S286 . SCS IOFS OSTS IRCF IDLEN ]
-"6716
-[s S287 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
-[n S287 . SCS0 SCS1 . IRCF0 IRCF1 IRCF2 ]
-"6724
-[s S288 :2 `uc 1 :1 `uc 1 ]
-[n S288 . . FLTS ]
-"6708
-[u S285 `S286 1 `S287 1 `S288 1 ]
-[n S285 . . . . ]
-"6729
-[v _OSCCONbits `VS285 ~T0 @X0 0 e@4051 ]
-"12 configuracion.h
-[p x OSC=IRCIO ]
-"13
-[p x FCMEN=ON ]
-"14
-[p x IESO=ON ]
-"17
-[p x PWRTEN=ON ]
-"18
-[p x BOREN=ON ]
-"19
-[p x BORV=27 ]
-"22
-[p x WDTEN=OFF ]
-"23
-[p x WDPS=32768 ]
-"24
-[p x WINEN=OFF ]
-"27
-[p x PWMPIN=OFF ]
-"28
-[p x LPOL=HIGH ]
-"29
-[p x HPOL=HIGH ]
-"30
-[p x T1OSCMX=ON ]
-"33
-[p x FLTAMX=RC1 ]
-"34
-[p x SSPMX=RC7 ]
-"35
-[p x PWM4MX=RB5 ]
-"36
-[p x EXCLKMX=RC3 ]
-"37
-[p x MCLRE=ON ]
-"40
-[p x STVREN=ON ]
-"41
-[p x LVP=ON ]
-"44
-[p x CP0=OFF ]
-"45
-[p x CP1=OFF ]
-"46
-[p x CP2=OFF ]
-"47
-[p x CP3=OFF ]
-"50
-[p x CPB=OFF ]
-"51
-[p x CPD=OFF ]
-"54
-[p x WRT0=OFF ]
-"55
-[p x WRT1=OFF ]
-"56
-[p x WRT2=OFF ]
-"57
-[p x WRT3=OFF ]
-"60
-[p x WRTC=OFF ]
-"61
-[p x WRTB=OFF ]
-"62
-[p x WRTD=OFF ]
-"65
-[p x EBTR0=OFF ]
-"66
-[p x EBTR1=OFF ]
-"67
-[p x EBTR2=OFF ]
-"68
-[p x EBTR3=OFF ]
-"71
-[p x EBTRB=OFF ]
 [; ;include\xc.h: 18: extern const char __xc8_OPTIM_SPEED;
 [; ;include\xc.h: 20: extern double __fpnormalize(double);
 [; ;c90\stdint.h: 13: typedef signed char int8_t;
@@ -3269,20 +3178,79 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;include\pic18.h: 188: __attribute__((__unsupported__("The READTIMER" "3" "() macro is not available with the current device."))) unsigned short __readtimer3(void);
 [; ;include\pic18.h: 192: unsigned char __t1rd16on(void);
 [; ;include\pic18.h: 193: unsigned char __t3rd16on(void);
-[v $root$_main `(v ~T0 @X0 0 e ]
-"9 main.c
-[v _main `(v ~T0 @X0 1 ef ]
-{
-[; ;main.c: 9: void main(void) {
-[e :U _main ]
-[f ]
-[; ;main.c: 11: OSCCONbits.IRCF=111;
+"6 configuracion.c
+[p x OSC=IRCIO ]
+"7
+[p x FCMEN=ON ]
+"8
+[p x IESO=ON ]
 "11
-[e = . . _OSCCONbits 0 3 -> -> 111 `i `uc ]
-[; ;main.c: 12: return;
+[p x PWRTEN=ON ]
 "12
-[e $UE 309  ]
-[; ;main.c: 13: }
+[p x BOREN=ON ]
 "13
-[e :UE 309 ]
-}
+[p x BORV=27 ]
+"16
+[p x WDTEN=OFF ]
+"17
+[p x WDPS=32768 ]
+"18
+[p x WINEN=OFF ]
+"21
+[p x PWMPIN=OFF ]
+"22
+[p x LPOL=HIGH ]
+"23
+[p x HPOL=HIGH ]
+"24
+[p x T1OSCMX=ON ]
+"27
+[p x FLTAMX=RC1 ]
+"28
+[p x SSPMX=RC7 ]
+"29
+[p x PWM4MX=RB5 ]
+"30
+[p x EXCLKMX=RC3 ]
+"31
+[p x MCLRE=ON ]
+"34
+[p x STVREN=ON ]
+"35
+[p x LVP=ON ]
+"38
+[p x CP0=OFF ]
+"39
+[p x CP1=OFF ]
+"40
+[p x CP2=OFF ]
+"41
+[p x CP3=OFF ]
+"44
+[p x CPB=OFF ]
+"45
+[p x CPD=OFF ]
+"48
+[p x WRT0=OFF ]
+"49
+[p x WRT1=OFF ]
+"50
+[p x WRT2=OFF ]
+"51
+[p x WRT3=OFF ]
+"54
+[p x WRTC=OFF ]
+"55
+[p x WRTB=OFF ]
+"56
+[p x WRTD=OFF ]
+"59
+[p x EBTR0=OFF ]
+"60
+[p x EBTR1=OFF ]
+"61
+[p x EBTR2=OFF ]
+"62
+[p x EBTR3=OFF ]
+"65
+[p x EBTRB=OFF ]

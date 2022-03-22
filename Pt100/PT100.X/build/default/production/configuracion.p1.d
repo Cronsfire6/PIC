@@ -1,6 +1,6 @@
- build/default/production/main.d  \
- build/default/production/main.p1:  \
- main.c  \
+ build/default/production/configuracion.d  \
+ build/default/production/configuracion.p1:  \
+ configuracion.c  \
 ../../../../../../../Program\ Files/Microchip/xc8/v2.32/pic/include/language_support.h  \
 configuracion.h  \
 ../../../../../../../Program\ Files/Microchip/xc8/v2.32/pic/include/errata.h  \
