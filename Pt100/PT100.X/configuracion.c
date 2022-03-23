@@ -1,5 +1,3 @@
-#include "configuracion.h"
-
 #include <xc.h>
 
 // CONFIG1H
