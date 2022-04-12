@@ -1,0 +1,25 @@
+Removed Member From Class: ClassName=PIC_16g628aSCH Member=P1
+Removed Member From Class: ClassName=PIC_16g628aSCH Member=P2
+Removed Member From Class: ClassName=PIC_16g628aSCH Member=P4
+Change Component Designator: OldDesignator=J1 NewDesignator=J?
+Change Component Designator: OldDesignator=P1 NewDesignator=P?
+Change Component Designator: OldDesignator=P2 NewDesignator=P?
+Change Component Designator: OldDesignator=P3 NewDesignator=P?
+Change Component Designator: OldDesignator=P4 NewDesignator=P?
+Change Net Name : Old Net Name=NetJ1_1 New Net Name=NetJ?_1
+Change Net Name : Old Net Name=NetJ1_2 New Net Name=NetJ?_2
+Change Net Name : Old Net Name=NetJ1_3 New Net Name=NetJ?_3
+Change Net Name : Old Net Name=NetJ1_4 New Net Name=NetJ?_4
+Change Net Name : Old Net Name=NetJ1_6 New Net Name=NetJ?_6
+Change Net Name : Old Net Name=NetJ1_7 New Net Name=NetJ?_7
+Change Net Name : Old Net Name=NetJ1_8 New Net Name=NetJ?_8
+Change Net Name : Old Net Name=NetJ1_9 New Net Name=NetJ?_9
+Change Net Name : Old Net Name=NetJ1_10 New Net Name=NetJ?_10
+Change Net Name : Old Net Name=NetJ1_11 New Net Name=NetJ?_11
+Change Net Name : Old Net Name=NetJ1_12 New Net Name=NetJ?_12
+Change Net Name : Old Net Name=NetJ1_13 New Net Name=NetJ?_13
+Change Net Name : Old Net Name=NetJ1_14 New Net Name=NetJ?_14
+Change Net Name : Old Net Name=NetJ1_15 New Net Name=NetJ?_15
+Change Net Name : Old Net Name=NetJ1_16 New Net Name=NetJ?_16
+Change Net Name : Old Net Name=NetJ1_17 New Net Name=NetJ?_17
+Change Net Name : Old Net Name=NetJ1_18 New Net Name=NetJ?_18

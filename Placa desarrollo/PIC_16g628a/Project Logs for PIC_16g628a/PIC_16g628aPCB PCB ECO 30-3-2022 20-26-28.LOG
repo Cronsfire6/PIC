@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=NetJ1_5 New Net Name=GND
+Added Member To Class: ClassName=PIC_16g628aSCH Member=Component J1 PIC16F628-20/P
+Added Member To Class: ClassName=PIC_16g628aSCH Member=Component P4 Header 3
+Added Room: Name=PIC_16g628aSCH
